@@ -6,8 +6,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.slf4j.LoggerFactory;
 
-import com.road.util.TimeUtil;
-
 import ch.qos.logback.classic.Logger;
 
 /**
@@ -26,7 +24,7 @@ public class DeadlockDetectorAdapter
                 return;
 
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append(TimeUtil.getDateFormat(new Date())).append(":SMS-Alarm:Deadlock detected!\n");
+            stringBuilder.append(":SMS-Alarm:Deadlock detected!\n"); //短信告警日志
             for (ThreadInfo threadInfo : deadlockedThreads)
             {
                 if (threadInfo == null)
