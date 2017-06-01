@@ -12,7 +12,7 @@ import ch.qos.logback.classic.Logger;
 
 /**
  * 
- * @author fei.wang
+ * @author foo
  *
  */
 public class DeadlockDetectorAdapter

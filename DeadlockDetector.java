@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * http://korhner.github.io/java/multithreading/detect-java-deadlocks-programmatically/
  * 死锁检测器
  * 
- * @author fei.wang
+ * @author foo
  * 
  */
 public class DeadlockDetector

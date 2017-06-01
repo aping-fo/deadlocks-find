@@ -5,7 +5,7 @@ import java.lang.management.ThreadInfo;
 /**
  * 死锁检测接口
  * 
- * @author fei.wang
+ * @author foo
  * 
  */
 public interface DeadlockHandler
