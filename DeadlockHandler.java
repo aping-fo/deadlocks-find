@@ -1,4 +1,4 @@
-package com.road.pitaya.deadlockDetector;
+package com.foo;
 
 import java.lang.management.ThreadInfo;
 
